@@ -217,27 +217,36 @@
 
 
 
-Route::get('/', function (){
-    return view('welcome');
+//Route::get('/', function (){
+//    return view('welcome');
+//});
+//
+//Route::any('test', 'TestController@create');
+//
+//Route::get('test/helper', function() {
+//    $arr = [
+//        'name'=>'jack',
+//        'age'=>18,
+//        'job'=>'no'
+//    ];
+//    return camel_case('hello_world');
+//});
+//
+//Route::get('nnngu', function () {
+//    return 'good nnngu !';
+//});
+//
+//Route::get('haha', function() {
+//	return '哈哈😁';
+//});
+
+
+use App\Entity\Member;
+
+Route::get('/', function() {
+    return Member::all();
 });
 
-Route::any('test', 'TestController@create');
 
-Route::get('test/helper', function() {
-    $arr = [
-        'name'=>'jack',
-        'age'=>18,
-        'job'=>'no'
-    ];
-    return camel_case('hello_world');
-});
-
-Route::get('nnngu', function () {
-    return 'good nnngu !';
-});
-
-Route::get('haha', function() {
-	return '哈哈😁';
-});
 
 
