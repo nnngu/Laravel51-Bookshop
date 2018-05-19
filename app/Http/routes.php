@@ -244,7 +244,7 @@
 use App\Entity\Member;
 
 Route::get('/', function() {
-    return Member::all();
+    return view('bookshop.login');
 });
 
 
