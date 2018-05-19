@@ -141,7 +141,7 @@
             enable = false;
             var num = 60;
             var interval = window.setInterval(function() {
-                $('.bk_phone_code_send').html(--num + 's 重新发送');
+                $('.bk_phone_code_send').html(--num + 's 之后重新发送');
                 if(num == 0) {
                     $('.bk_phone_code_send').removeClass('bk_summary');
                     $('.bk_phone_code_send').addClass('bk_important');
