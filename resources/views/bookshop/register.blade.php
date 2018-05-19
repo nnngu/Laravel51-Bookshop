@@ -153,9 +153,10 @@
 
             $.ajax({
                 url: '/service/validate_phone/send',
+                method: 'POST',
                 dataType: 'json',
                 cache: false,
-                data: {phone: phone},
+                data: {phone: phone, _token:"{{ csrf_token() }}"},
                 success: function(data) {
                     if(data == null) {
                         $('.bk_toptips').show();
