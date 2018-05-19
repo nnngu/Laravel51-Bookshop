@@ -241,11 +241,18 @@
 //});
 
 
-use App\Entity\Member;
+//use App\Entity\Member;
+
 
 Route::get('/', function() {
     return view('bookshop.login');
 });
+
+Route::get('/login', 'View\MemberController@toLogin');
+
+Route::get('/register', 'View\MemberController@toRegister');
+
+Route::any('service/validate_code/create', 'Service\ValidateController@create');
 
 
 

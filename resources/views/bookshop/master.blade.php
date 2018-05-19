@@ -9,7 +9,9 @@
 </head>
 <body>
 
-@yield('content')
+<div class="page">
+    @yield('content')
+</div>
 
     <!--tooltips-->
     <div class="bk_toptips"><span></span></div>
