@@ -2,6 +2,7 @@
 
 namespace App\Http;
 
+use App\Http\Middleware\CheckLogin;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
 class Kernel extends HttpKernel
@@ -31,5 +32,7 @@ class Kernel extends HttpKernel
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         // 在这里添加了一行，注册中间件
         'young' => \App\Http\Middleware\YoungMiddleware::class,
+
+        'check.login' => CheckLogin::class,
     ];
 }
