@@ -57,7 +57,7 @@ class BookController extends Controller
       }
     }
 
-    return view('pdt_content')->with('product', $product)
+    return view('bookshop.pdt_content')->with('product', $product)
                               ->with('pdt_content', $pdt_content)
                               ->with('pdt_images', $pdt_images)
                               ->with('count', $count);
