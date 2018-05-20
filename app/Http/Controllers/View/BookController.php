@@ -48,7 +48,7 @@ class BookController extends Controller
       $bk_cart = $request->cookie('bk_cart');
       $bk_cart_arr = ($bk_cart!=null ? explode(',', $bk_cart) : array());
 
-      foreach ($bk_cart_arr as $value) {   // 一定要传引用
+      foreach ($bk_cart_arr as $value) {
         $index = strpos($value, ':');
         if(substr($value, 0, $index) == $product_id) {
           $count = (int) substr($value, $index+1);
