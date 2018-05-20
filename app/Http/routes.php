@@ -273,7 +273,7 @@ Route::group(['prefix' => 'service'], function () {
 
 
 Route::group(['middleware' => 'check.login'], function () {
-
+    Route::get('/order_pay', 'View\OrderController@toOrderPay');
 });
 
 
