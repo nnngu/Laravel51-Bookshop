@@ -244,9 +244,7 @@
 //use App\Entity\Member;
 
 
-Route::get('/', function() {
-    return view('bookshop.login');
-});
+Route::get('/', 'View\BookController@toCategory');
 
 Route::get('/login', 'View\MemberController@toLogin');
 Route::get('/register', 'View\MemberController@toRegister');
@@ -256,6 +254,10 @@ Route::get('/product/category_id/{category_id}', 'View\BookController@toProduct'
 Route::get('/product/{product_id}', 'View\BookController@toPdtContent');
 
 Route::get('/cart', 'View\CartController@toCart');
+
+Route::get('/pay', function () {
+    return view('bookshop.alipay.merchant_url');
+});
 
 
 
