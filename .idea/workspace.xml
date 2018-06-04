@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f8ae80f-8202-4aa1-a874-33890609eb8c" name="Default" comment="支付宝pay">
-      <change beforePath="$PROJECT_DIR$/.idea/Laravel.iml" beforeDir="false" />
+    <list default="true" id="6f8ae80f-8202-4aa1-a874-33890609eb8c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5f2ce3bb-694e-4152-89e4-ceaacac40889.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php-test-framework.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +43,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="70">
+              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -193,7 +185,6 @@
         <option value="$PROJECT_DIR$/resources/views/bookshop/component/loading.blade.php" />
         <option value="$PROJECT_DIR$/app/Tool/ValidateCode/ValidateCode.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Service/ValidateController.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/config/mail.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Service/MemberController.php" />
@@ -216,6 +207,7 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/View/OrderController.php" />
         <option value="$PROJECT_DIR$/resources/views/bookshop/order_list.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -446,7 +438,7 @@
       <workItem from="1528115617546" duration="50000" />
       <workItem from="1528115671695" duration="63000" />
       <workItem from="1528115739052" duration="229000" />
-      <workItem from="1528116070332" duration="298000" />
+      <workItem from="1528116070332" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="update the packet &quot;hoek&quot; to version 4.2.1">
       <created>1526664672322</created>
@@ -567,14 +559,29 @@
       <option name="project" value="LOCAL" />
       <updated>1526914022989</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="添加忽略 .idea/">
+      <created>1528116719795</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1528116719795</updated>
+    </task>
+    <task id="LOCAL-00019" summary="取消 .idea/ 的追踪">
+      <created>1528116873431</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1528116873431</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155027000" />
+    <option name="totallyTimeSpent" value="155326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="638" y="23" width="642" height="730" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.328594" />
@@ -652,7 +659,9 @@
     <MESSAGE value="离线的购物车(cookie) 与 登录之后的购物车(数据库) 的同步" />
     <MESSAGE value="订单提交" />
     <MESSAGE value="支付宝pay" />
-    <option name="LAST_COMMIT_MESSAGE" value="支付宝pay" />
+    <MESSAGE value="添加忽略 .idea/" />
+    <MESSAGE value="取消 .idea/ 的追踪" />
+    <option name="LAST_COMMIT_MESSAGE" value="取消 .idea/ 的追踪" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/views/bookshop/cart.blade.php">
@@ -999,8 +1008,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="70">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
         </state>
       </provider>
     </entry>
